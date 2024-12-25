@@ -40,7 +40,7 @@ const update_emp = async (req, res) => {
         console.log(error);
         res.json({ message: "error" });
     }
-}
+} 
 
 const delete_emp = async (req, res) => {
     try {
