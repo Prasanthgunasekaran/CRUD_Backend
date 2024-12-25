@@ -7,8 +7,10 @@ const bodyparser = require('body-parser');
 // const cors = require('cors')
 
 const authrouter = require("./routes/userroutes");
-const { error } = require('console');
-mongoose.connect("mongodb://localhost:27017/Empdetails");
+
+// const { error } = require('console');
+
+mongoose.connect("mongodb://localhost:27017/BACKEND");
 
 const db = mongoose.connection;
 
